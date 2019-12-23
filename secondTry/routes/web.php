@@ -18,3 +18,4 @@ Route::get('/test/{name?}', function($name = 'John'){
 	return 'HEEELLOWWW '.$name."!!!";
 });
 Route::get('/user', 'UserController@index');
+Route::get('category','CategoryController@index');
